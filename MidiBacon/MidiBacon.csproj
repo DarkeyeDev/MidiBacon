@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6245FBDA-CDA0-4FC0-972E-2CA54DC0E2C2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MidiBacon</RootNamespace>
+    <AssemblyName>MidiBacon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MidiModel\ChannelEvents\ChannelEventType.cs" />
+    <Compile Include="MidiModel\ChannelEvents\ChannelMidiEvent.cs" />
+    <Compile Include="MidiModel\BaseChunk.cs" />
+    <Compile Include="MidiModel\HeaderChunk.cs" />
+    <Compile Include="MidiModel\MidiTime.cs" />
+    <Compile Include="MidiModel\MetaEvents\BaseMetaEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\CopyrightNoticeEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\CuePointEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\DeviceNameEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\EndOfTrackEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\InstrumentNameEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\KeySignatureEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\LyricsEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\MarkerEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\MetaEventType.cs" />
+    <Compile Include="MidiModel\MetaEvents\MidiChannelEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\MidiPortEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\SequenceNumberEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\SequencerSpecificEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\TempoEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\SMPTEOffSetEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\TextEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\TimeSignatureEvent.cs" />
+    <Compile Include="MidiModel\MetaEvents\TrackNameEvent.cs" />
+    <Compile Include="MidiModel\MidiControllerType.cs" />
+    <Compile Include="MidiModel\BaseMidiEvent.cs" />
+    <Compile Include="MidiModel\MidiFile.cs" />
+    <Compile Include="MidiModel\Note.cs" />
+    <Compile Include="MidiModel\NoteMap.cs" />
+    <Compile Include="MidiModel\Region.cs" />
+    <Compile Include="MidiModel\TrackChunk.cs" />
+    <Compile Include="MidiModel\TrackFormatType.cs" />
+    <Compile Include="MidiModel\UtilBinary.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

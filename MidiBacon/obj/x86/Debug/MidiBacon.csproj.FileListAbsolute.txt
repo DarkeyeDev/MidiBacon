@@ -1,0 +1,12 @@
+C:\Projects\MidiBacon\MidiBacon\bin\Debug\MidiBacon.exe.config
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\MidiBacon\MidiBacon\bin\Debug\MidiBacon.exe
+C:\Projects\MidiBacon\MidiBacon\bin\Debug\MidiBacon.pdb
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.exe
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.pdb
+\\MEDIA-PC\Joe\PROJECTS\MidiBacon\MidiBacon\bin\Debug\MidiBacon.exe.config
+\\MEDIA-PC\Joe\PROJECTS\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.exe
+\\MEDIA-PC\Joe\PROJECTS\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.pdb
+C:\Dev\MidiBacon\MidiBacon\bin\Debug\MidiBacon.exe.config
+C:\Dev\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.exe
+C:\Dev\MidiBacon\MidiBacon\obj\x86\Debug\MidiBacon.pdb

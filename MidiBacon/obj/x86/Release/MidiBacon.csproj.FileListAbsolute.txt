@@ -1,0 +1,6 @@
+C:\Projects\MidiBacon\MidiBacon\bin\Release\MidiBacon.exe.config
+C:\Projects\MidiBacon\MidiBacon\bin\Release\MidiBacon.exe
+C:\Projects\MidiBacon\MidiBacon\bin\Release\MidiBacon.pdb
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Release\MidiBacon.exe
+C:\Projects\MidiBacon\MidiBacon\obj\x86\Release\MidiBacon.pdb
